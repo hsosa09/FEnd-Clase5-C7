@@ -1,0 +1,22 @@
+.logoPrincipal {
+    display: block;
+    margin:auto;
+}
+
+.tituloSeccion, .tituloPrincipal{
+    color: rgb(0, 86, 119);
+    background-color: rgb(196, 196, 196);
+}
+
+footer{
+    background-color: rgb(0, 86, 119);
+    height: 37px;
+}
+
+.pieDePagina{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
