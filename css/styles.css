@@ -1,16 +1,19 @@
-.logoPrincipal {
-    display: block;
-    margin:auto;
+.portada {
+    text-align: center;
 }
 
 .tituloSeccion, .tituloPrincipal{
     color: rgb(0, 86, 119);
     background-color: rgb(196, 196, 196);
+    font-family: fuenteEspectacular;
+    font-weight: 100;
+    height: 30px;
+    text-align: center;
 }
 
 footer{
     background-color: rgb(0, 86, 119);
-    height: 37px;
+    height: auto;
 }
 
 .pieDePagina{
@@ -19,4 +22,19 @@ footer{
     color: white;
     font-weight: 700;
     font-size: 20px;
+    
 }
+
+.cabecera {
+    background-color: rgb(162, 150, 138);
+}
+
+.fotoPerfil{
+    width: 150px;
+}
+
+@font-face {
+    font-family: fuenteEspectacular;
+    src:url("../fonts/PressStart2P-Regular.ttf");
+}
+
