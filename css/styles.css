@@ -1,22 +1,18 @@
-.logoPrincipal {
-    display: block;
-    margin:auto;
+body {
+  background-color: skyblue;
 }
-
-.tituloSeccion, .tituloPrincipal{
-    color: rgb(0, 86, 119);
-    background-color: rgb(196, 196, 196);
+body header {
+  display: flex;
+  align-items: center;
 }
-
-footer{
-    background-color: rgb(0, 86, 119);
-    height: 37px;
+body header section h1 {
+  font-size: 18px;
+  color: red;
 }
-
-.pieDePagina{
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
+body footer {
+  width: 100%;
 }
+body footer section span {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=styles.css.map */
